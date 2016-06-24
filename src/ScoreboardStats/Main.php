@@ -31,6 +31,10 @@ class Main extends PluginBase implements Listener {
  			//$Time = intval($this->cfg["time"]) * 20;
  			$players->sendPopup(" §eID:§b $Name §cRank:§d $Rank §aCoin:§f $Money §2$ ");
  		}
+{
+Public function Call() {
+       foreach($this->getServer()->sendMessage(" §9You use ScoreBoardStats plugins ! ")
+
  	}
 
 	public function onDisable() {
